@@ -33,7 +33,7 @@ def redis_hset(str2,str3):
     fans = redisconn.hset('r:fanscount',str2,str3)
     return fans
 
-db = MySQLdb.connect("192.168.9.226","lz_read","909e8d463991b442e2b3816e712ad8e5","PLURelationship") 
+db = MySQLdb.connect("192.168.9.226","xxxxx","xxxxx","PLURelationship") 
 
 
 file_object = open('/app/tmp/uid.txt')
