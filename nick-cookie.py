@@ -18,6 +18,6 @@ for line in file_object:
                print data
                j1 = json.loads(ss)
                cookie1 =  '{"cookies":"%s"}'%(str(j1['cookie']))
-               r = requests.post('http://login.longzhu.com/internal/kickUserLoginByCookie', data=eval(cookie1))
+               r = requests.post('http://login.xxxxx.xxx/internal/kickUserLoginByCookie', data=eval(cookie1))
                print(r.url)
                print(r.text)
